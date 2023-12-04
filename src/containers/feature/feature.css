@@ -1,0 +1,144 @@
+.features {
+    width: 100%;
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+    top: 2417px;
+    left: 112px;
+    border-radius: 20px;
+    border: 1px;
+}
+
+.features img {
+    width: 812.34px;
+    height: 625.52px;
+    top: 22px;
+    left: 100px;
+    background-image: url("../../assets/shape.png");
+}
+
+.features_content{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-heading h1 {
+    display: flex;
+    margin-top: 100px;
+    font-family: IBM Plex Sans Thai;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 89px;
+    letter-spacing: 0.17em;
+    text-align: center;
+}
+
+.features_2023 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.features_2023 p{
+    margin-left: 50px;
+    margin-top: 75px;
+}
+.features_2023 button {
+
+    background: rgba(217, 217, 217, 1);
+    border-radius: 50%;
+    width: 162px;
+    height: 162px;
+    top: 275px;
+    left: 625px;
+    font-size: xx-large;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0.33em;
+    text-align: center;
+    border: none;
+}
+
+.features_2022{
+    display: flex;
+    flex-direction: row;
+}
+.features_2022 p{
+    margin-top: 75px;
+    margin-right: 50px;
+}
+.features_2022 button {
+    background: rgba(217, 217, 217, 1);
+    border-radius: 50%;
+    width: 162px;
+    height: 162px;
+    top: 275px;
+    left: 625px;
+    font-size: xx-large;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0.33em;
+    text-align: center;
+    border: none;
+    align-items: center;
+}
+.features_2021{
+    display: flex;
+    flex-direction: row;
+}
+.features_2021 p{
+    margin-top: 75px;
+    margin-left: 50px;
+}
+.features_2021 button {
+    background: rgba(217, 217, 217, 1);
+    border-radius: 50%;
+    width: 162px;
+    height: 162px;
+    top: 275px;
+    left: 625px;
+    font-size: xx-large;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0.33em;
+    text-align: center;
+    border: none;
+}
+
+.features_images {
+    width: 100%;
+    z-index: -1;
+}
+.features_images img {
+    background-image: url("../../assets/shape.png");
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 990px) {
+    .features {
+        flex-direction: column;
+    }
+
+    .features-heading {
+        margin: 0 0 2rem 0;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .features-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}

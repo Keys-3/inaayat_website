@@ -1,0 +1,119 @@
+.what {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+    background: white;
+}
+
+.what-images {
+    display: flex;
+}
+
+.what-images_image1 img {
+    width: 289px;
+    height: 289px;
+    top: -6px;
+    left: -95px;
+    align-items: left;
+}
+
+.what-images_image2 img {
+    width: 391px;
+    height: 391px;
+    top: -115px;
+    left: 1194px;
+    align-items: right;
+}
+
+.what-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 4rem 0 2rem;
+}
+
+.what-heading img{
+    width: 598px;
+    height: 598px;
+    top: 237px;
+    left: 73px;
+    margin-left: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 13px 10.399999618530273px 0px rgba(0, 0, 0, 0.55);
+
+}
+.what-heading_content{
+    display: block;
+    width: 50%;
+}
+.what-heading h1 {
+    display: block;
+    font-size: 34px;
+    text-decoration: underline;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    width: 50%;
+    align-items: right;
+}
+
+.what-heading p {
+    width: 504px;
+    height: 551px;
+    top: 316px;
+    left: 818px;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.33em;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+.what-image3 {
+    width: 221px;
+    height: 221px;
+    top: 881px;
+    left: -61px;
+}
+
+
+@media screen and (max-width: 850px) {
+    .what-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+    .what-images {
+        margin-top: 0.5rem;
+    }
+    .what-images {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+    .what-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .what-heading{
+        flex-direction: column;
+    }
+
+    .what-images {
+        margin-top: 0.5rem;
+    }
+
+    .what-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}

@@ -1,0 +1,178 @@
+.header {
+    display: flex;
+    border: 1px;
+    background-image: url("../../assets/team.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    background-size: cover;
+}
+
+.header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-left: 40px;
+}
+
+.header-content h1 {
+    width: 416px;
+    height: 87.33px;
+    top: 256px;
+    left: 49px;
+    font: var(--font-family);
+    color: rgba(26, 124, 215, 1);
+    font-weight: 500;
+    letter-spacing: 33%;
+    font-size: 66.67px;
+    line-height: 96.54px;
+    letter-spacing: 0.04em;
+}
+
+.header-content h2 {
+    width: 485.86px;
+    height: 98px;
+    top: 358px;
+    left: 90px;
+
+    font-family: Kapakana;
+    font-size: 98px;
+    font-weight: 400;
+    line-height: 98px;
+    letter-spacing: 0.33em;
+    text-align: left;
+    letter-spacing: -0.04em;
+}
+
+.header-content p {
+    font-family: Inter;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.33em;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+
+.header-content__input button1 {
+    flex: 0.6;
+    font-family: var(--font-family);
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    top: 730px;
+    left: 121px;
+    border-radius: 30px;
+    background: linear-gradient(108.46deg, #A076F9 6.93%, rgba(160, 118, 249, 0.36) 95.84%);
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 20px;
+    border: none;
+}
+.header-content__input button2 {
+    flex: 0.6;
+    font-family: var(--font-family);
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    top: 730px;
+    left: 121px;
+    border-radius: 30px;
+    background: linear-gradient(108.46deg, #A076F9 6.93%, rgba(160, 118, 249, 0.36) 95.84%);
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 20px;
+    border: none;
+    margin-left: 100px;
+}
+
+.header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-image img {
+    width: 600px;
+    height: 600px;
+    margin-top: -100px;
+    margin-left: 100px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1050px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header-content h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .header-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .header-image {
+        flex-direction: column;
+        background-position: center;
+    }
+
+    .header-image p {
+        margin: 0;
+    }
+
+    .header-content__input input,
+    .header-content__input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .header-content h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .header-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .header-content__input input,
+    .header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
